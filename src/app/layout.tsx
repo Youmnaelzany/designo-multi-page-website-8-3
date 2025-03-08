@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 import "./globals.css";
@@ -23,9 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jost.className} antialiased relative`}>
+      <body className={`${jost.className} relative antialiased`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
