@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 
-import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Header from "@/components/header/header";
 
+import Footer from "@/components/footer/footer";
+import LetsTalk from "@/components/footer/lets-talk";
 import "./globals.css";
 
 const jost = Jost({
@@ -24,9 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jost.className} relative antialiased`}>
+      <body className={`${jost.className}  antialiased`}>
         <Header />
         {children}
+        <LetsTalk />
         <Footer />
       </body>
     </html>

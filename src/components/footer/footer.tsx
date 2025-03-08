@@ -4,12 +4,14 @@ import Link from "next/link";
 import { FaPinterest } from "react-icons/fa";
 import { FaInstagram, FaSquareFacebook, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
-import NavLinks from "./nav-links";
-import { Separator } from "./ui/separator";
-
-export default function Footer() {
+import NavLinks from "../header/nav-links";
+import { Separator } from "../ui/separator";
+interface FooterProps {
+  marginTop?: string;
+}
+export default function Footer({ marginTop }: FooterProps) {
   return (
-    <footer className="flex flex-col items-center justify-center gap-y-10 bg-[#1D1C1E] px-6 pt-[18.81rem] pb-16 text-white sm:flex-row sm:flex-wrap sm:items-start sm:justify-between sm:px-[2.44rem] sm:pt-[10.38rem] sm:pb-20 lg:pr-[10.25rem] lg:pl-[10.31rem]">
+    <footer className="flex flex-col items-center justify-center gap-y-10 bg-[#1D1C1E] px-6  pb-16 text-white sm:flex-row sm:flex-wrap sm:items-start sm:justify-between sm:px-[2.44rem] sm:pb-20 lg:pr-[10.25rem] lg:pl-[10.31rem] relative sm:pt-[10.38rem] pt-[18.81rem] ">
       <Link href="/">
         <Image
           src="/assets/shared/desktop/logo-light.png"

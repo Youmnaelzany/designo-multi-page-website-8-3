@@ -1,5 +1,8 @@
+
 export default function Locations() {
-    return (
-      <main className="">Locations Page</main>
-    );
-  }
+  return (
+    <main className="">
+      Locations
+    </main>
+  );
+}
