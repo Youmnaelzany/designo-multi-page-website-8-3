@@ -6,7 +6,7 @@ import NavLinks from "./nav-links";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 right-0 left-0 flex items-center justify-between bg-white px-6 pt-[2.19rem] pb-[2.13rem] sm:py-16 sm:pr-[2.62rem] sm:pl-[2.44rem] lg:pr-[10.37rem] lg:pb-[4.19rem] lg:pl-[10.31rem] z-50">
+    <header className="sticky top-0 right-0 left-0 flex items-center justify-between bg-white px-6 pt-[2.19rem] pb-[2.13rem] sm:py-16 sm:pr-[2.62rem] sm:pl-[2.44rem] xl:pr-[10.37rem] xl:pb-[4.19rem] xl:pl-[10.31rem] z-50">
       {/* Logo */}
       <Link href="/">
         <Image

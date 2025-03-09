@@ -11,7 +11,7 @@ interface FooterProps {
 }
 export default function Footer({ marginTop }: FooterProps) {
   return (
-    <footer className="flex flex-col items-center justify-center gap-y-10 bg-[#1D1C1E] px-6  pb-16 text-white sm:flex-row sm:flex-wrap sm:items-start sm:justify-between sm:px-[2.44rem] sm:pb-20 lg:pr-[10.25rem] lg:pl-[10.31rem] relative sm:pt-[10.38rem] pt-[18.81rem] ">
+    <footer className="flex flex-col items-center justify-center gap-y-10 bg-[#1D1C1E] px-6  pb-16 text-white sm:flex-row sm:flex-wrap sm:items-start sm:justify-between sm:px-[2.44rem] sm:pb-20 xl:pr-[10.25rem] xl:pl-[10.31rem] relative sm:pt-[10.38rem] pt-[18.81rem] ">
       <Link href="/">
         <Image
           src="/assets/shared/desktop/logo-light.png"
@@ -24,12 +24,12 @@ export default function Footer({ marginTop }: FooterProps) {
       <NavLinks className="flex flex-col items-center justify-center gap-y-8 sm:flex-row sm:justify-between sm:gap-x-[2.62rem] text-sm font-normal leading-[0.875rem] tracking-[0.125rem]" />
       <Separator className="hidden text-white opacity-[0.1] sm:block" />
       <div className="flex flex-col items-center justify-between gap-y-10 text-center sm:flex-row sm:justify-between sm:text-left">
-        <div className="sm:w-[13.9375rem] text-base leading-[1.625rem] font-bold opacity-[0.5035] w-[20.4375rem] lg:w-[21.875rem]">
+        <div className="sm:w-[13.9375rem] text-base leading-[1.625rem] font-bold opacity-[0.5035] w-[20.4375rem] xl:w-[21.875rem]">
           <p>Designo Central Office</p>
           <p>3886 Wellington Street</p>
           <p>Toronto, Ontario M9C 3J5</p>
         </div>
-        <div className="sm:w-[13.9375rem] text-base leading-[1.625rem] font-bold opacity-[0.5035] w-[20.4375rem] lg:w-[21.875rem]">
+        <div className="sm:w-[13.9375rem] text-base leading-[1.625rem] font-bold opacity-[0.5035] w-[20.4375rem] xl:w-[21.875rem]">
           <p>Contact Us (Central Office)</p>
           <p>P : +1 253-863-8967</p>
           <p>M : contact@designo.co</p>

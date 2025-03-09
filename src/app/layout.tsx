@@ -25,9 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jost.className}  antialiased`}>
+      <body className={`${jost.className} antialiased max-w-[90rem] max-h-dvh`}>
         <Header />
-        {children}
+        <div className="px-6 sm:px-10 xl:px-[10.31rem]">{children}</div>
         <LetsTalk />
         <Footer />
       </body>
