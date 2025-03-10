@@ -1,5 +1,9 @@
+import GraphicDesignCard from "@/components/main/graphicdesign-card";
+
 export default function GraphicDesign() {
-    return (
-      <main className="">Graphic Design Page</main>
-    );
-  }
+  return (
+    <main className="">
+      <GraphicDesignCard />
+    </main>
+  );
+}

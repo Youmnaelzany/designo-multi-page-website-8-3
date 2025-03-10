@@ -1,5 +1,9 @@
+import AppDesignCard from "@/components/main/appdesign-card";
+
 export default function AppDesign() {
-    return (
-      <main className="">App Design Page</main>
-    );
-  }
+  return (
+    <main className="">
+      <AppDesignCard />
+    </main>
+  );
+}

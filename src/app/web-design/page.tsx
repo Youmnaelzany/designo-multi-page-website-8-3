@@ -1,5 +1,9 @@
+import WebDesignCard from "@/components/main/webdesign-card";
+
 export default function WebDesign() {
-    return (
-      <main className="">Web Design Page</main>
-    );
-  }
+  return (
+    <main className="">
+      <WebDesignCard />
+    </main>
+  );
+}
