@@ -10,5 +10,5 @@ export default function HeroTitle({ title, description }: HeroTitleProps) {
             <h1 className="text-[2rem] leading-9 font-medium text-white sm:text-[3rem] sm:leading-12 w-[20.4375rem] sm:w-[23.4375rem]">{title}</h1>
             <p className="text-[0.9375rem] leading-[1.5625rem] font-normal text-white w-[20.4375rem] sm:w-[23.4375rem]">{description}</p>
         </div>
-    )
+    );
 }

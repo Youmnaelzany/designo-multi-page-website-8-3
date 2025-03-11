@@ -17,5 +17,5 @@ export default function Card({ cardImg, title, description }: CardProps) {
                 <p className="text-base font-normal leading-[1.625rem] text-[#333136] w-[16.70038rem] sm:w-[17.3125rem] xl:w-[16.875rem] group-hover:text-white">{description}</p>
             </div>
         </div>
-    )
+    );
 }

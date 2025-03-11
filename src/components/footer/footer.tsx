@@ -6,10 +6,7 @@ import { FaInstagram, FaSquareFacebook, FaXTwitter, FaYoutube } from "react-icon
 
 import NavLinks from "../header/nav-links";
 import { Separator } from "../ui/separator";
-interface FooterProps {
-  marginTop?: string;
-}
-export default function Footer({ marginTop }: FooterProps) {
+export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center gap-y-10 bg-[#1D1C1E] px-6  pb-16 text-white sm:flex-row sm:flex-wrap sm:items-start sm:justify-between sm:px-[2.44rem] sm:pb-20 xl:pr-[10.25rem] xl:pl-[10.31rem] relative sm:pt-[10.38rem] pt-[18.81rem] ">
       <Link href="/">
