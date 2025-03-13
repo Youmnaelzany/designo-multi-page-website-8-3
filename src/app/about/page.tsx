@@ -1,8 +1,17 @@
 import AboutCard from "@/components/main/about-card";
+import AboutHero from "@/components/main/about-hero";
 
 export default function About() {
   return (
     <main className="">
+      <section className="">
+        <AboutHero desktopImg="assets/about/desktop/image-about-hero.jpg"
+          tabletImg="assets/about/tablet/image-about-hero.jpg"
+          mobileImg="assets/about/mobile/image-about-hero.jpg"
+          title="About us"
+          description="Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs  that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients' audiences."
+        />
+      </section>
       <section className="">
         <AboutCard
           desktopImg="assets/about/desktop/image-world-class-talent.jpg"
