@@ -22,9 +22,9 @@ export default function OurBrands() {
         },
     ];
     return (
-        <section className="flex flex-col items-center justify-center gap-y-20 sm:gap-y-8 xl:flex-row xl:justify-between xl:gap-x-[1.88rem] text-center">
+        <section className="flex flex-col items-center justify-center gap-y-20 sm:gap-y-8 lg:flex-row lg:justify-between lg:gap-x-[1.88rem] text-center">
             {brands.map((brand) => (
-                <div className="flex flex-col items-center justify-center gap-y-12 sm:flex-row sm:justify-between sm:gap-x-12 xl:flex-col xl:items-center xl:justify-center text-canter sm:text-left xl:text-center " key={brand.title}>
+                <div className="flex flex-col items-center justify-center gap-y-12 sm:flex-row sm:justify-between sm:gap-x-12 lg:flex-col lg:items-center lg:justify-center text-canter sm:text-left lg:text-center " key={brand.title}>
                     <div className="relative">
                         <Image src={brand.image} alt={brand.title} width={202} height={202} className="z-50" />
                         <Image
@@ -35,8 +35,8 @@ export default function OurBrands() {
                             className="absolute top-0 left-0 mx-auto right-0"
                         />
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-y-8 sm:items-start sm:justify-start sm:gap-y-4 xl:gap-y-8 text-center sm:text-left xl:text-center w-[20.4375rem] sm:w-[27.4375rem] xl:w-[21.875rem]">
-                        <h3 className="text-xl leading-[1.625rem] font-medium tracking-[0.3125rem] text-[#333136] text-center xl:self-center">
+                    <div className="flex flex-col items-center justify-center gap-y-8 sm:items-start sm:justify-start sm:gap-y-4 lg:gap-y-8 text-center sm:text-left lg:text-center w-[20.4375rem] sm:w-[27.4375rem] lg:w-[21.875rem]">
+                        <h3 className="text-xl leading-[1.625rem] font-medium tracking-[0.3125rem] text-[#333136] text-center lg:self-center">
                             {brand.title}
                         </h3>
                         <p className="text-base text-[#333136] leading-[1.625rem] font-normal">{brand.description}</p>

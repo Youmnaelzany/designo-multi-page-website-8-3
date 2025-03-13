@@ -19,7 +19,7 @@ export default function OurLocations() {
         },
     ];
     return (
-        <section className="flex flex-col items-center justify-center gap-y-12 sm:gap-y-20 xl:flex-row xl:justify-between xl:px-16">
+        <section className="flex flex-col items-center justify-center gap-y-12 sm:gap-y-20 lg:flex-row lg:justify-between lg:px-16">
             {locations.map((location) => (
                 <div className="flex flex-col items-center justify-center gap-y-8 " key={location.country}>
                     <div className="flex flex-col items-center justify-center gap-y-12 relative">
