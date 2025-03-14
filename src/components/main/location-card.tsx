@@ -29,7 +29,7 @@ export default function LocationCard({ desktopImg, tabletImg, mobileImg, title, 
 
             {/* Text Container */}
             <div className="w-full lg:w-2/3 bg-[#FDF3F0] flex flex-col items-center justify-center sm:justify-start text-center  py-20 sm:py-20.sm:rounded-lg gap-y-6 sm:pl-[4.69rem] lg:pl-[5.94rem] sm:items-start sm:text-left">
-                <div className="sm:w-[15.9375rem] w-[20.4375rem]">
+                <div className="">
                     <h2 className="text-[#E7816B] text-[2rem] font-medium leading-9 sm:text-[2.5rem] sm:leading-12">
                         {title}
                     </h2>
